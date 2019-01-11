@@ -1,0 +1,38 @@
+{
+  "name": "todo-react-assignment",
+  "version": "1.0.0",
+  "description": "A sample javascript (React) assignment for Todo list tracking",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack",
+    "serve": "serve ./public",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thalaksamy/todo-react-assignment.git"
+  },
+  "author": "“thalaksamy” <“kuppusamybtech90@gmail.com”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalaksamy/todo-react-assignment/issues"
+  },
+  "homepage": "https://github.com/thalaksamy/todo-react-assignment#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.1",
+    "serve": "^1.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.14.0",
+    "babel-core": "^6.26.3",
+    "express": "^4.14.0",
+    "history": "^3.0.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
+  }
+}
